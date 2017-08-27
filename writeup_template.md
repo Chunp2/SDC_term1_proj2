@@ -1,5 +1,7 @@
 #**Traffic Sign Recognition**
 ---
+## Author: Paul Chun
+---
 
 **Build a Traffic Sign Recognition Project**
 
@@ -15,8 +17,6 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/sampleVSclasses.png "Visualization"
-[image2]: ./examples/grayscale.jpg "Grayscaling"
-[image3]: ./examples/random_noise.jpg "Random Noise"
 [image4]: ./examples/new_img.png "Traffic Sign"
 [image5]: ./prediction/prediction1.png "prediction1"
 [image6]: ./prediction/prediction2.png "prediction2"
@@ -35,7 +35,7 @@ The goals / steps of this project are the following:
 
 #### Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
 
-You're reading it! and here is a link to my [project code](https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
+You're reading it! and here is a link to my [project code](https://github.com/Chunp2/SDC_term1_proj2/blob/master/Traffic_Sign_Classifier.ipynb)
 
 ### Data Set Summary & Exploration
 
@@ -137,6 +137,7 @@ The model was able to correctly guess 6 of the 6 traffic signs, which gives an a
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
 The code for making predictions on my final model is located in the 21st cell of the Ipython notebook.
+
 1st image:
 ![alt text][image5]
 2nd image:
