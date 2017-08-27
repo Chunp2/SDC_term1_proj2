@@ -18,12 +18,12 @@ The goals / steps of this project are the following:
 [image2]: ./examples/grayscale.jpg "Grayscaling"
 [image3]: ./examples/random_noise.jpg "Random Noise"
 [image4]: ./examples/new_img.png "Traffic Sign"
-[image5]: ./prediction/prediction1 "prediction1"
-[image6]: ./prediction/prediction2 "prediction2"
-[image7]: ./prediction/prediction3 "prediction3"
-[image8]: ./prediction/prediction4 "prediction4"
-[image9]: ./prediction/prediction5 "prediction5"
-[image10]: ./prediction/prediction6 "prediction6"
+[image5]: ./prediction/prediction1.png "prediction1"
+[image6]: ./prediction/prediction2.png "prediction2"
+[image7]: ./prediction/prediction3.png "prediction3"
+[image8]: ./prediction/prediction4.png "prediction4"
+[image9]: ./prediction/prediction5.png "prediction5"
+[image10]: ./prediction/prediction6.png "prediction6"
 
 
 
