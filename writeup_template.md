@@ -1,6 +1,7 @@
 #**Traffic Sign Recognition**
 ---
-## Author: Paul Chun
+### Author: Paul Chun
+### Last Update: 8/27/2017
 ---
 
 **Build a Traffic Sign Recognition Project**
