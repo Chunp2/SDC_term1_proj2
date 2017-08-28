@@ -18,6 +18,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/sampleVSclasses.png "Visualization"
+[image2]: ./examples/bar1.png "Softmax VS Guess#"
 [image4]: ./examples/new_img.png "Traffic Sign"
 [image5]: ./prediction/prediction1.png "prediction1"
 [image6]: ./prediction/prediction2.png "prediction2"
@@ -109,7 +110,7 @@ If a well known architecture was chosen:
 * How does the final model's accuracy on the training, validation and test set provide evidence that the model is working well?
 
 
-###Test a Model on New Images
+### Test a Model on New Images
 
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
@@ -118,6 +119,14 @@ Here are five German traffic signs that I found on the web:
 ![alt text][image4]
 
 These images has sizes other than 32 x 32, so they were resized from their sizes to 32 x 32.
+
+Classifying difficulty
+* Label #33: The valid image sign board being brighter than the original image can be a factor of misclassification.
+* Label #18: The background color of the image is reddish
+* Label #12: The right side of the image is too dark compared to the left side. It also has another round shaped with red color edge sign board on the bottom, which can confuse the network with other round shaped sign boards.
+* Label #25: Low resolution of the image shows the road worker symbol unclear.
+* Label #35: The image is a little dark and the tree branches, which can be a noise, block covers part of the sign board image.
+* Label #7: The image is too dark.
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
@@ -141,17 +150,19 @@ The code for making predictions on my final model is located in the 21st cell of
 
 1st image:
 ![alt text][image5]
+![alt text][image2]
 2nd image:
 ![alt text][image6]
+![alt text][image2]
 3rd image:
 ![alt text][image7]
+![alt text][image2]
 4th image:
 ![alt text][image8]
+![alt text][image2]
 5th image:
 ![alt text][image9]
+![alt text][image2]
 6th image:
 ![alt text][image10]
-
-
-### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
-####1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
+![alt text][image2]
