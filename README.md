@@ -120,13 +120,13 @@ Here are five German traffic signs that I found on the web:
 
 These images has sizes other than 32 x 32, so they were resized from their sizes to 32 x 32.
 
-Classifying difficulty
+Classification difficulty:
 * Label #33: The valid image sign board being brighter than the original image can be a factor of misclassification.
-* Label #18: The background color of the image is reddish
+* Label #18: N/A
 * Label #12: The right side of the image is too dark compared to the left side. It also has another round shaped with red color edge sign board on the bottom, which can confuse the network with other round shaped sign boards.
 * Label #25: Low resolution of the image shows the road worker symbol unclear.
-* Label #35: The image is a little dark and the tree branches, which can be a noise, block covers part of the sign board image.
-* Label #7: The image is too dark.
+* Label #35: The image is a little dark and the tree branches covering part of the sign board image can cause misclassification.
+* Label #7: The image is too dark, and the sign colors are not clear red/white color. This may be the fact that misclassify the image.
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
@@ -147,22 +147,33 @@ The model was able to correctly guess 6 of the 6 traffic signs, which gives an a
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
 The code for making predictions on my final model is located in the 21st cell of the Ipython notebook.
-
+I provided images with the probability bar graph.
 1st image:
 ![alt text][image5]
 ![alt text][image2]
+The model guessed the original image by a validation image with 100% probability.
+
 2nd image:
 ![alt text][image6]
 ![alt text][image2]
+The model guessed the original image by a validation image with 100% probability.
+
 3rd image:
 ![alt text][image7]
 ![alt text][image2]
+The model guessed the original image by a validation image with 100% probability.
+
 4th image:
 ![alt text][image8]
 ![alt text][image2]
+The model guessed the original image by a validation image with 100% probability.
+
 5th image:
 ![alt text][image9]
 ![alt text][image2]
+The model guessed the original image by a validation image with 100% probability.
+
 6th image:
 ![alt text][image10]
 ![alt text][image2]
+The model guessed the original image by a validation image with 100% probability.
